@@ -82,3 +82,7 @@ function getAccount(key) {
     }
     return "";
 }
+function hider () {
+    myModal.hide();
+}
+document.getElementById("cancelb").addEventListener("click",hider);
